@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./all.min.css" />
+    <script src="./index.js"></script>
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/2a09458275.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav>
+      <h2 id="logo">Prapti Madhariya</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+        <li class="navigation-item"><a href="#"onclick="myFunction()"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi! I'm Prapti, Fill Stack java Developer certified by code cademy.
+            </p>
+            <p>
+              I am following the Frontend engineer Careerpath courses at Codecademy from TataStrive center.
+            </p>
+            <p>
+              Passionate Web Developer with technical skills, self-discipline, 
+              and the ability to operate with little supervision. 
+              I am excited to join a forward-thinking organization with the 
+              opportunity to collaborate on big
+              initiatives.
+            </p>
+            
+            <p>
+              Fun fact! I've been programing for
+              <span id="time-container">0</span> days!
+            </p>
+          </div>
+          <img
+            src="./images/myPic.jpg"
+            alt="prapti madhariya"
+            class="portrait"
+          />
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Portfolio</h3>
+          </summary>
+          <img
+            src="./images/portfolio.png"
+            alt="Lovelace's diagram from note G, the first published computer
+          algorithm"
+            class="project-image"
+          />
+          <p class="project-description">
+            The Portfolio Website is a personal website designed to showcase my skills, projects, and professional information. 
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>LearningAcedemy (Frontend)</h3>
+          </summary>
+          <img
+            src="./images/StartLearning.png"
+            alt="An original model of part of the Analytical Engine"
+            class="project-image"
+          />
+          <p class="project-description">
+            The Learning Academy Website is an educational platform designed to provide online learning 
+            resources and courses to students of all ages. The website aims to bridge the gap between traditional 
+            classroom learning and modern digital education. It serves as a comprehensive learning hub, offering a wide range of courses, interactive learning materials, and opportunities for skill development.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Tour $ travels</h3>
+          </summary>
+          <img
+            src="./images/tour_travel.png"
+            alt='Ada mascot, a black and cobalt blue hummingbird, flying above the
+          slogan "Time-tested, safe and secure"'
+            class="project-image"
+          />
+          <p class="project-description">
+            The Tour & Travels Website is an online platform that offers comprehensive travel solutions to 
+            travelers seeking to explore various destinations. The website serves as a one-stop solution for 
+            planning and booking tours, accommodations, transportation, and other travel-related services.
+          </p>
+        </details>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <!-- <i class="fab fa-aws"></i> -->
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <!-- <i class="fas fa-terminal"></i> -->
+          <!-- <i class="fas fa-universal-access"></i> -->
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer>Welcome to <span class="heart">♥</span> my Portfolio</footer>
+  </body>
+
+  </html> 
